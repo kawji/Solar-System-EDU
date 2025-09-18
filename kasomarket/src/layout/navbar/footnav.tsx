@@ -5,13 +5,9 @@ import { usePathname } from "next/navigation"
 
 
 export default function Footnav() {
-    
     const path = usePathname();
 
-    console.log('this path --> ',path)
     
-
-
     return(
         <nav className="relative w-full pt-5 pb-2 lg:pl-10 lg:pr-[55px] flex justify-between items-center  bg-white z-99  ">
             <div className="flex-1 flex justify-start ">
