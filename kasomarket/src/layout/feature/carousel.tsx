@@ -5,7 +5,7 @@ import 'swiper/css/pagination';
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
+import { Mousewheel, Keyboard ,Autoplay } from 'swiper/modules';
 
 
 export default function Carousel() {
@@ -16,11 +16,10 @@ export default function Carousel() {
           spaceBetween={0}
           slidesPerView={1}
           cssMode={true}
-          navigation={true}
-          pagination={true}
+          autoplay={true}
           mousewheel={true}
           keyboard={true}
-          modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+          modules={[Mousewheel, Keyboard ,Autoplay]}
           className="mySwiper"
         >
           <SwiperSlide>
