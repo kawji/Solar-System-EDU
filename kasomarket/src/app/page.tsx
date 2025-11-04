@@ -4,12 +4,8 @@ import Carousel from "@/layout/feature/carousel";
 
 export default function Home() {
   return (
-    <div className="bg-[#ececec] w-full min-h-screen text-black ">
+    <div className=" w-full min-h-screen text-black bg-[#ececec] ">
       <Navbar />
-      <Carousel />
-      <div className=" w-150px h-auto  " >
-        <Carousel />
-      </div>
 
 
 
