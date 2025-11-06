@@ -9,23 +9,23 @@ export default function Sectionsnav() {
 
     
     return(
-            <div className="flex justify-end  gap-4 ">
-                <span className={clsx("p-2 text-black/75 text-[15px] hover:text-blue-500 transition-colors cursor-pointer " ,path==='/' ? 'text-blue-700' : '' )}>
+            <div className="flex items-center justify-end text-[16px] gap-4 ">
+                <span className={clsx("p-2 text-black/75  hover:text-blue-500 transition-colors cursor-pointer " ,path==='/' ? 'text-blue-700' : '' )}>
                     ส่วนนำ
                 </span>
-                <span className={clsx("p-2 text-black/75 text-[15px] hover:text-blue-500 transition-colors cursor-pointer " )}>
+                <span className={clsx("p-2 text-black/75  hover:text-blue-500 transition-colors cursor-pointer " )}>
                     ระบบสุริยะคือ
                 </span>
-                <span className={clsx("p-2 text-black/75 text-[15px] hover:text-blue-500 transition-colors cursor-pointer " )}>
+                <span className={clsx("p-2 text-black/75  hover:text-blue-500 transition-colors cursor-pointer " )}>
                     การกำเนิดระบบสุริยะ
                 </span>
-                <span className={clsx("p-2 text-black/75 text-[15px] hover:text-blue-500 transition-colors cursor-pointer " )}>
+                <span className={clsx("p-2 text-black/75 hover:text-blue-500 transition-colors cursor-pointer " )}>
                     ดาวเคราะห์
                 </span>
-                <span className={clsx("p-2 text-black/75 text-[15px] hover:text-blue-500 transition-colors cursor-pointer " )}>
+                <span className={clsx("p-2 text-black/75 hover:text-blue-500 transition-colors cursor-pointer " )}>
                     สรุปเนื้อหา
                 </span>
-                <span className={clsx("p-2 text-black/75 text-[15px] hover:text-blue-500 transition-colors cursor-pointer " )}>
+                <span className={clsx("p-2 text-black/75 hover:text-blue-500 transition-colors cursor-pointer " )}>
                     ติดต่อเรา
                 </span>
 
