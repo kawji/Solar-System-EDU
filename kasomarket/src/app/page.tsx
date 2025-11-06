@@ -1,12 +1,13 @@
-import Navbar from "@/layout/feature/navbar";
-import Carousel from "@/layout/feature/carousel";
-
+import Topnav from "@/layout/navbar/topnav";
+import Mainnav from "@/layout/navbar/mainnav";
+import Main from "@/layout/main/main";
 
 export default function Home() {
   return (
-    <div className=" w-full min-h-screen text-black bg-[#ececec] ">
-      <Navbar />
-
+    <div className=" w-full min-h-screen text-black bg-[#f5f4f4] ">
+      <Topnav />
+      <Mainnav />
+      <Main />
 
 
 
