@@ -7,7 +7,7 @@ export default function Setellites() {
         
         <div className="w-full h-auto flex flex-col items-center gap-2 ">
                         
-        <p className=" text-lg lg:text-[24px] text-cent justify-center mt-25 flex w-full items-center pl-0 text-black/70 font-semibold leading-relaxed  ">
+        <p className=" text-lg lg:text-[24px] text-cent justify-center mt-20 flex w-full items-center pl-0 text-black/70 font-semibold leading-relaxed  ">
         ดาวพุธ <br />
         </p>
         <img src={'/9.1.png'} className="max-w-[400px] w-full h-auto object-contain aspect-video mt-2" />
@@ -181,7 +181,7 @@ export default function Setellites() {
         <span className=" max-w-[800px] w-full h-auto flex items-center justify-center text-[17px] text-black/55 font-medium -translate-y-0 ">
             ภาพ : nstda.or.th
         </span>
-        <p className="text-[17px] text-black/70 leading-relaxed flex justify-start items-center w-full ">  
+        <p id="object" className="text-[17px] text-black/70 leading-relaxed flex justify-start items-center w-full ">  
     
         •	เป็นดาวเคราะห์แก๊สและเป็นดาวเคราะห์วงนอก เป็นดาวเคราะห์ลำดับที่ 8 ในระบบสุริยะ<br />
         •	เป็นดาวเคราะห์สีน้ำเงิน<br />
