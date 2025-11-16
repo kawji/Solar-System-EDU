@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kaso Market ร้านขายของออนไลน์",
-  description: "ร้านขายของออนไลน์ที่ Clound Market iHAVECPU",
+  title: "Solar System EDU — กำเนิดระบบสุริยะและการแบ่งเขตบริวารรอบดวงอาทิตย์",
+  description: "สำรวจการกำเนิดระบบสุริยะ ดาวเคราะห์ ดาวบริวาร และโครงสร้างรอบดวงอาทิตย์กับ Solar System EDU แหล่งความรู้ดาราศาสตร์ครบวงจร",
 };
 
 export default function RootLayout({

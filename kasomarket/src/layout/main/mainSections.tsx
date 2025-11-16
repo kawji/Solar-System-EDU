@@ -10,28 +10,27 @@ export default function MainSections() {
     return(
         <div className="max-w-[1200px] w-full h-auto flex items-center justify-around   pt-5  ">
             <div className="max-w-[1200px] w-full h-auto flex flex-col items-center gap-2">
-                <Text text="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;กว่า 4,600 ล้านปีก่อน ในมุมหนึ่งของเอกภพ กลุ่มเมฆก๊าซและฝุ่นอวกาศได้รวมตัวกันภายใต้แรงโน้มถ่วง จนก่อให้เกิดดาวฤกษ์ดวงหนึ่งซึ่งเรารู้จักกันในชื่อว่า “ดวงอาทิตย์” และจากเศษวัสดุที่เหลืออยู่รอบ ๆ มัน ก็ค่อย ๆ รวมตัวกันกลายเป็นดาวเคราะห์ ดวงจันทร์ และวัตถุท้องฟ้าต่าง ๆ จนเกิดเป็นระบบดาวที่เราเรียกว่า “ระบบสุริยะ” เรื่องราวของการกำเนิดนี้ไม่เพียงเป็นต้นกำเนิดของโลกและชีวิต แต่ยังสะท้อนถึงวิวัฒนาการอันยิ่งใหญ่ของเอกภพที่เราดำรงอยู่ในทุกวันนี้" />
-                <img src={'/1.jpg'} className="max-w-[800px] w-full h-auto object-cover aspect-video mt-5" />
-                <span className=" max-w-[800px] w-full h-auto flex items-center justify-center text-[17px] text-black/55 font-medium  ">
+                <Text  text="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;กว่า 4,600 ล้านปีก่อน ในมุมหนึ่งของเอกภพ กลุ่มเมฆก๊าซและฝุ่นอวกาศได้รวมตัวกันภายใต้แรงโน้มถ่วง จนก่อให้เกิดดาวฤกษ์ดวงหนึ่งซึ่งเรารู้จักกันในชื่อว่า “ดวงอาทิตย์” และจากเศษวัสดุที่เหลืออยู่รอบ ๆ มัน ก็ค่อย ๆ รวมตัวกันกลายเป็นดาวเคราะห์ ดวงจันทร์ และวัตถุท้องฟ้าต่าง ๆ จนเกิดเป็นระบบดาวที่เราเรียกว่า “ระบบสุริยะ” เรื่องราวของการกำเนิดนี้ไม่เพียงเป็นต้นกำเนิดของโลกและชีวิต แต่ยังสะท้อนถึงวิวัฒนาการอันยิ่งใหญ่ของเอกภพที่เราดำรงอยู่ในทุกวันนี้" />
+                <img id="formation" src={'/1.jpg'} className="max-w-[800px] w-full h-auto object-cover aspect-video mt-5" />
+                <span   className=" max-w-[800px] w-full h-auto flex items-center justify-center text-[17px] text-black/55 font-medium  ">
                     ภาพ : nstda.or.th
                 </span>
                 <div className="w-full h-[1px] bg-black/10 mb-2  " />
-                <p className="text-[17px] text-black/70 leading-relaxed ">
-                ระบบสุริยะถือกำเนิดมาจากแก๊ส และฝุ่นที่มีการเคลื่อนที่ตลอดเวลา เมื่อรวมกันตรงใจกลาง จะมีความหนาแน่นเพิ่มขึ้น ทำให้มีมวลและแรงดึงดูดมากขึ้น เมื่อมวลมากขึ้นจะเริ่มหดตัวลงด้วยแรงโน้มถ่วง นักดาราศาสตร์แบ่งดาวเคราะห์ออกเป็นดาวเคราะห์ชั้นใน และดาวเคราะห์ชั้นนอก โดยใช้แถบดาวเคราะห์น้อยเป็นเกณฑ์ในการแบ่ง นอกจากนี้ ในระบบสุริยะยังประกอบด้วยองค์ประกอบอื่นๆ อีก เช่น ดาวเคราะห์แคระ ดาวหาง สะเก็ดดาว เป็นต้น
-                <br /><br />
-                ดวงอาทิตย์เกิดจากกลุ่มแก๊สยุบตัวลง และหมุนรอบตัวเอง ทำให้ความดันเพิ่มขึ้น บริเวณ
-                ตรงกลางมีอุณหภูมิสูงมาก จนเกิดปฏิกิริยาเทอร์โมนิวเคลียร์ หรือนิวเคลียร์ฟิวชัน โดยไฮโดรเจนรวมกันเป็นฮีเลียมได้พลังงานของดาวฤกษ์ดวงใหม่ คือ ดวงอาทิตย์ ฝุ่นและแก๊สที่เหลือรอบนอก เคลื่อนที่หมุนวนเป็นแผ่นกลมแบนรอบดวงอาทิตย์<br /><br />
-                บริเวณใกล้ดวงอาทิตย์มีอุณหภูมิสูง สารบางส่วนระเหยเป็นแก๊ส บางส่วนเกิดจากเศษโลหะ เศษหิน รวมตัวกันจนมีขนาดใหญ่ขึ้น กลายเป็นดาวเคราะห์ชั้นในที่มีขนาดเล็ก ส่วนบริเวณที่ไกลออกไป มีอุณหภูมิต่ำกว่า จึงรวมตัวกันเป็นดาวเคราะห์ขนาดใหญ่ ในแถบกลุ่มดาวเคราะห์แก๊สที่อยู่รอบนอก
-                <br /><br />
-                ของแข็งที่เหลือจากการรวมตัวเป็นดาวเคราะห์ ในช่องว่างระหว่างวงโคจรดาวอังคารกับ
-                วงโคจรดาวพฤหัสบดี ยังคงโคจรรอบดวงอาทิตย์ กลายเป็นดาวเคราะห์น้อย สสารที่กระจายตัว
-                อยู่รอบนอก ไกลกว่าดาวเคราะห์ กลายเป็นแหล่งกำเนิดของดาวหาง
-
+                <p   className="text-[17px] text-black/70 leading-relaxed ">
+                    ระบบสุริยะถือกำเนิดมาจากแก๊ส และฝุ่นที่มีการเคลื่อนที่ตลอดเวลา เมื่อรวมกันตรงใจกลาง จะมีความหนาแน่นเพิ่มขึ้น ทำให้มีมวลและแรงดึงดูดมากขึ้น เมื่อมวลมากขึ้นจะเริ่มหดตัวลงด้วยแรงโน้มถ่วง นักดาราศาสตร์แบ่งดาวเคราะห์ออกเป็นดาวเคราะห์ชั้นใน และดาวเคราะห์ชั้นนอก โดยใช้แถบดาวเคราะห์น้อยเป็นเกณฑ์ในการแบ่ง นอกจากนี้ ในระบบสุริยะยังประกอบด้วยองค์ประกอบอื่นๆ อีก เช่น ดาวเคราะห์แคระ ดาวหาง สะเก็ดดาว เป็นต้น
+                    <br /><br />
+                    ดวงอาทิตย์เกิดจากกลุ่มแก๊สยุบตัวลง และหมุนรอบตัวเอง ทำให้ความดันเพิ่มขึ้น บริเวณ
+                    ตรงกลางมีอุณหภูมิสูงมาก จนเกิดปฏิกิริยาเทอร์โมนิวเคลียร์ หรือนิวเคลียร์ฟิวชัน โดยไฮโดรเจนรวมกันเป็นฮีเลียมได้พลังงานของดาวฤกษ์ดวงใหม่ คือ ดวงอาทิตย์ ฝุ่นและแก๊สที่เหลือรอบนอก เคลื่อนที่หมุนวนเป็นแผ่นกลมแบนรอบดวงอาทิตย์<br /><br />
+                    บริเวณใกล้ดวงอาทิตย์มีอุณหภูมิสูง สารบางส่วนระเหยเป็นแก๊ส บางส่วนเกิดจากเศษโลหะ เศษหิน รวมตัวกันจนมีขนาดใหญ่ขึ้น กลายเป็นดาวเคราะห์ชั้นในที่มีขนาดเล็ก ส่วนบริเวณที่ไกลออกไป มีอุณหภูมิต่ำกว่า จึงรวมตัวกันเป็นดาวเคราะห์ขนาดใหญ่ ในแถบกลุ่มดาวเคราะห์แก๊สที่อยู่รอบนอก
+                    <br /><br />
+                    ของแข็งที่เหลือจากการรวมตัวเป็นดาวเคราะห์ ในช่องว่างระหว่างวงโคจรดาวอังคารกับ
+                    วงโคจรดาวพฤหัสบดี ยังคงโคจรรอบดวงอาทิตย์ กลายเป็นดาวเคราะห์น้อย สสารที่กระจายตัว
+                    อยู่รอบนอก ไกลกว่าดาวเคราะห์ กลายเป็นแหล่งกำเนิดของดาวหาง
                 </p>
 
-                <img src={'/2.jpg'} className="max-w-[800px] w-full h-auto object-cover aspect-video mt-5 " />
+                <img id="zones" src={'/2.jpg'} className="max-w-[800px] w-full h-auto object-cover aspect-video mt-5 " />
                 <span className=" max-w-[800px] w-full h-auto flex items-center justify-center text-[17px] text-black/55 font-medium  ">
-                    ภาพ : nstda.or.th
+                    ภาพ : scimath.org
                 </span>
                 <p className="text-[17px] text-black/70 leading-relaxed ">
                     ระบบสุริยะ ประกอบด้วยดวงอาทิตย์เป็นศูนย์กลางของระบบ นักดาราศาสตร์แบ่งเขตพื้นที่รอบดวงอาทิตย์ ตามลักษณะของการเกิด และลักษณะขององค์ประกอบ ออกเป็น 4 เขตคือ<br />&nbsp;&nbsp;&nbsp;
@@ -41,11 +40,11 @@ export default function MainSections() {
                     4. เขตดาวหาง อยู่ตั้งแต่วงโคจรของดาวเนปจูนไกลออกไป เช่น ดาวเคราะห์แคระ ดาวพลูโต ดาวอีริส ดาวหาง สะเก็ดดาว
                 </p>
 
-                <img src={'/3.png'} className="max-w-[800px] w-full h-auto object-cover aspect-video mt-5 " />
+                <img id="components" src={'/3.png'} className="max-w-[800px] w-full h-auto object-cover aspect-video mt-5 " />
                 <span className=" max-w-[800px] w-full h-auto flex items-center justify-center text-[17px] text-black/55 font-medium  ">
-                    ภาพ : nstda.or.th
+                    ภาพ : scimath.org
                 </span>
-                <p className="text-[17px] flex w-full items-center justify-start pl-6  text-black/75 font-semibold leading-relaxed ">
+                <p   className="text-[17px] flex w-full items-center justify-start pl-6  text-black/75 font-semibold leading-relaxed ">
                     "ส่วนประกอบของระบบ"
                 </p>
                 <p className="text-[17px] text-black/70 leading-relaxed ">
@@ -89,11 +88,11 @@ export default function MainSections() {
                 </p>
 
 
-                <img src={'/5.png'} className="max-w-[800px] w-full h-auto object-contain aspect-video mt-5" />
+                <img id="type" src={'/5.png'} className="max-w-[800px] w-full h-auto object-contain aspect-video mt-5" />
                 <span className=" max-w-[800px] w-full h-auto flex items-center justify-center text-[17px] text-black/55 font-medium -translate-y-8 ">
-                    ภาพ : nstda.or.th
+                    ภาพ : scimath.org
                 </span>
-                <p className="text-[17px] flex w-full items-center justify-start text-black/70 font-semibold leading-relaxed ">
+                <p   className="text-[17px] flex w-full items-center justify-start text-black/70 font-semibold leading-relaxed ">
                     "ถ้าแบ่งดาวเคราะห์โดยใช้ระยะที่อยู่ห่างจากดวงอาทิตย์กับดาวเคราะห์น้อย ซึ่งดาวเคราะห์น้อยอยู่ ระหว่างดาวอังคารและดาวพฤหัสบดีเป็นเกณฑ์ จะสามารถแบ่งได้ 2 ประเภท ดังนี้"
                 </p>
                 <p className="text-[17px] text-black/70 leading-relaxed ">
@@ -111,7 +110,7 @@ export default function MainSections() {
 
                 <img src={'/6.png'} className="max-w-[800px] w-full h-auto object-contain aspect-video mt-5" />
                 <span className=" max-w-[800px] w-full h-auto flex items-center justify-center text-[17px] text-black/55 font-medium -translate-y-8 ">
-                    ภาพ : nstda.or.th
+                    ภาพ : scimath.org
                 </span>
                 <p className="text-[17px] flex w-full items-center justify-start pl-0 text-black/70 font-semibold leading-relaxed mt-2 ">
                     "ถ้าแบ่งดาวเคราะห์ตามลักษณะพื้นผิวจะแบ่งได้เป็น 2 ประเภท คือ"
@@ -121,18 +120,18 @@ export default function MainSections() {
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.ดาวเคราะห์แก๊ส คือ ดาวเคราะห์ที่มีส่วนประกอบส่วนใหญ่เป็นแก๊ส อาจมีแกนหินขนาดเล็กอยู่
                     ภายใน พื้นผิวจึงปกคลุมด้วยแก๊สมีเทน แอมโมเนีย ไฮโดรเจน และฮีเลียม ได้แก่ ดาวพฤหัสบดี ดาวเสาร์ ดาวยูเรนัส และดาวเนปจูน
                 </p>
-                <img src={'/8.png'} className="max-w-[800px] w-full h-auto object-contain aspect-video mt-0" />
+                <img  id="planet" src={'/8.png'} className="max-w-[800px] w-full h-auto object-contain aspect-video mt-0" />
                 <span className=" max-w-[800px] w-full h-auto flex items-center justify-center text-[17px] text-black/55 font-medium -translate-y-10 ">
-                    ภาพ : nstda.or.th
+                    ภาพ : scimath.org
                 </span>
-                <p className="text-[17px] text-black/70 leading-relaxed ">
+                <p className="text-[17px] text-black/70 leading-relaxed -translate-y-5 ">
                 ภายใน พื้นผิวจึงปกคลุมด้วยแก๊สมีเทน แอมโมเนีย ไฮโดรเจน และฮีเลียม ได้แก่ ดาวพฤหัสบดี ดาวเสาร์ ดาวยูเรนัส และดาวเนปจูน
                 </p>
 
                 <Setellites />
 
 
-                <p className="text-[24px] flex w-full items-center justify-center text-black/75 mt-25 font-semibold leading-relaxed  ">
+                <p  className="text-[24px] flex w-full items-center justify-center text-black/75 mt-25 font-semibold leading-relaxed  ">
                     " วัตถุบนท้องฟ้า "
                 </p>
 
@@ -147,7 +146,7 @@ export default function MainSections() {
                 </p>
                 <img src={'/17.1.png'} className="max-w-[400px] w-full h-auto object-contain aspect-video mt-2" />
                 <span className=" max-w-[800px] w-full h-auto flex items-center justify-center text-[17px] text-black/55 font-medium -translate-y-0 ">
-                    ภาพ : nstda.or.th
+                    ภาพ : scimath.org
                 </span>
                 <p className="text-[17px] text-black/70 leading-relaxed flex justify-start items-center w-full ">
                     &nbsp;&nbsp;&nbsp;
@@ -159,7 +158,7 @@ export default function MainSections() {
                 </p>
                 <img src={'/18.1.png'} className="max-w-[400px] w-full h-auto object-contain aspect-video mt-2" />
                 <span className=" max-w-[800px] w-full h-auto flex items-center justify-center text-[17px] text-black/55 font-medium -translate-y-0 ">
-                    ภาพ : nstda.or.th
+                    ภาพ : scimath.org
                 </span>
                 <p className="text-[17px] text-black/70 leading-relaxed flex justify-start items-center w-full ">
                     &nbsp;&nbsp;&nbsp;
@@ -184,7 +183,7 @@ export default function MainSections() {
                 </p>
                 <img src={'/20.1.png'} className="max-w-[400px] w-full h-auto object-contain aspect-video mt-2" />
                 <span className=" max-w-[2000px] w-full h-auto flex items-center justify-center text-[17px] text-black/55 font-medium -translate-y-0 ">
-                    ภาพ : nstda.or.th
+                    ภาพ : scimath.org
                 </span>
                 <p className="text-[17px] text-black/70 leading-relaxed flex justify-start items-center w-full ">
                     &nbsp;&nbsp;&nbsp;

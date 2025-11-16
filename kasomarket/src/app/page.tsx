@@ -1,6 +1,7 @@
 import Topnav from "@/layout/navbar/topnav";
 import Mainnav from "@/layout/navbar/mainnav";
 import Main from "@/layout/main/main";
+import Footer from "@/layout/main/footer";
 
 export default function Home() {
   return (
@@ -8,13 +9,7 @@ export default function Home() {
       <Topnav />
       <Mainnav />
       <Main />
-
-
-
-
-
-
-
+      <Footer />
     </div>
   );
 }
