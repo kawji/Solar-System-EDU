@@ -20,26 +20,13 @@ export default function Section() {
                             <span className="absolute top-1/2 right-0 -translate-y-1/2 w-[1.5px] h-[70%] bg-black/14 " />
                         </span>
                         <span className="relative w-auto h-auto ">
-                            06 ส.ค. 67 
+                            มัธยมศึกษาปีที่ 6 ประจำปีการศึกษา 68 
 
                         </span>
 
                     </div>
                 </div>
             </span>
-
-            <div className="w-auto h-full  items-center flex gap-5 ">
-            <button className=" flex justify-center items-center  bg-black/3 border border-black/15  rounded-full w-10.5 h-10.5 cursor-pointer  text-black/75 transition-colors hover:bg-black/12 " 
-            >
-                <Sun  width={20} />
-                
-            </button>
-            <span className=" flex justify-center items-center bg-black/3 border border-black/15 rounded-full w-10.5 h-10.5 cursor-pointer  text-black/65 transition-colors hover:bg-black/12 " >
-                <Github   width={20} />
-                
-            </span>
-            </div>
-
 
             
         </div>
