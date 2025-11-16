@@ -10,7 +10,7 @@ export default function Main() {
             <Section />
 
             <div className="max-w-[1200px] w-full h-auto flex flex-col lg:flex-row  pt-5  ">
-                <div className="max-w-[900px] w-full h-auto flex flex-col items-center gap-5">
+                <div className="max-w-[900px] w-full h-auto flex flex-col items-center gap-5 leading-7 ">
                     <Text text="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;กว่า 4,600 ล้านปีก่อน ในมุมหนึ่งของเอกภพ กลุ่มเมฆก๊าซและฝุ่นอวกาศได้รวมตัวกันภายใต้แรงโน้มถ่วง จนก่อให้เกิดดาวฤกษ์ดวงหนึ่งซึ่งเรารู้จักกันในชื่อว่า “ดวงอาทิตย์” และจากเศษวัสดุที่เหลืออยู่รอบ ๆ มัน ก็ค่อย ๆ รวมตัวกันกลายเป็นดาวเคราะห์ ดวงจันทร์ และวัตถุท้องฟ้าต่าง ๆ จนเกิดเป็นระบบดาวที่เราเรียกว่า “ระบบสุริยะ” เรื่องราวของการกำเนิดนี้ไม่เพียงเป็นต้นกำเนิดของโลกและชีวิต แต่ยังสะท้อนถึงวิวัฒนาการอันยิ่งใหญ่ของเอกภพที่เราดำรงอยู่ในทุกวันนี้" />
                     <img src={'/hero.jpg'} className="max-w-[800px] w-full h-auto object-cover aspect-video " />
                     <span className=" max-w-[800px] w-full h-auto flex items-center justify-center text-[17px] text-black/55 font-medium  ">
@@ -24,7 +24,7 @@ export default function Main() {
                         <br /> <br />
                         กำเนิดระบบสุริยะจึงอาจแบ่งออกคร่าว ๆ ได้ 5 ขั้นตอนด้วยกันดังนี้
                     </p>
-                    <img src={'/1.jpg'} className="max-w-[800px] w-full h-auto object-cover aspect-video " />
+                    <img src={'/1.jpg'} className="max-w-[800px] w-full h-auto object-cover aspect-video mt-5" />
                     <span className=" max-w-[800px] w-full h-auto flex items-center justify-center text-[17px] text-black/55 font-medium  ">
                         ภาพ : trueplookpanya.com
                     </span>
@@ -37,21 +37,70 @@ export default function Main() {
                         <br /> <br />
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. ต่อมาก็ถึงคราวของเหล่าดาวเคราะห์กันบ้าง ในขั้นตอนการก่อร่างสร้างตัวของเหล่าก้อนมวล หรือ planetesimal ที่เป็นวัตถุดิบเริ่มต้นของดาวเคราะห์ ในขั้นนี้ดาวเคราะห์จะเริ่มก่อเกิดเป็นรูปเป็นร่างขึ้นมาบ้างแล้ว การที่อุณหภูมิ ณ ระยะทางจากใจกลางดวงอาทิตย์ต่างกันไป ก่อให้เกิดการแบ่งแยกของธาตุที่พบได้ในแต่ละโซน การเย็นตัวลงของธาตุ ณ อุณหภูมิต่าง ๆ กัน (condensation temperature) บ่งบอกว่าต้องใช้อุณหภูมิมากแค่ไหนจึงจะทำให้ธาตุนั้น ๆ หลอมและระเหยได้ ธาตุต้นกำเนิดหินแข็งจำพวกโลหะและซิลิเกตที่มีอุณหภูมิการควบแน่นหรือจุดหลอมเหลวสูง จึงพบมากในบริเวณใกล้ดวงอาทิตย์ที่ร้อนกว่า เพราะยังคงรักษาสภาพของแข็งได้แม้อุณหภูมิจะสูงมาก ส่วนน้ำและน้ำแข็งมีจุดหลอมเหลวต่ำก็จะก่อตัวกันในบริเวณที่ไกลออกไปจากใจกลางที่เย็นลงตามลำดับ นี่คือสาเหตุที่ดาวเคราะห์หินและดาวเคราะห์ก๊าซแบ่งแยกอย่างชัดเจนตามระยะห่างจากดวงอาทิตย์ที่ส่งผลต่ออุณหภูมิ ณ จุดนั้น ๆ นั่นเอง จะสังเกตเห็นว่าดาวเคราะห์ชั้นในไม่ค่อยมีส่วนประกอบของน้ำแข็ง เพราะอุณหภูมิไม่เคยต่ำพอให้น้ำควบแน่น ในทางกลับกันดาวเคราะห์ชั้นนอกที่มีอุณหภูมิต่ำพอให้ออกซิเจนและไฮโดรเจนรวมตัวกัน จะลงเอยในรูปน้ำแข็ง
                     </p>
-                    <img src={'/2.jpg'} className="max-w-[800px] w-full h-auto object-cover aspect-video " />
+                    <img src={'/2.jpg'} className="max-w-[800px] w-full h-auto object-cover aspect-video mt-5" />
                     <span className=" max-w-[800px] w-full h-auto flex items-center justify-center text-[17px] text-black/55 font-medium  ">
                         ภาพ : trueplookpanya.com
                     </span>
-                    <p className="text-lg text-black/75 ">
+                    <p className="text-[17px] text-black/75  ">
                         ระบบสุริยะ ประกอบด้วยดวงอาทิตย์เป็นศูนย์กลางของระบบ นักดาราศาสตร์แบ่งเขตพื้นที่รอบดวงอาทิตย์ ตามลักษณะของการเกิด และลักษณะขององค์ประกอบ ออกเป็น 4 เขตคือ
-                        <br /><br />
+                        <br />
                         1. เขตดาวเคราะห์ชั้นใน อยู่ระหว่างดวงอาทิตย์กับแถบดาวเคราะห์น้อย ได้แก่ ดาวพุธ ดาวศุกร์ โลก และดาวอังคาร มีแก่นเป็นโลหะ จึงเรียกว่า ดาวเคราะห์หิน
-                        <br /><br />
+                        <br />
                         2. แถบดาวเคราะห์น้อย อยู่ระหว่างวงโคจรของดาวอังคาร และดาวพฤหัสบดี เป็นเศษของดาวเคราะห์หิน แต่ไม่สามารถจับตัวกันเป็นขนาดใหญ่ได้
-                        <br /><br />
+                        <br />
                         3. เขตดาวเคราะห์ชั้นนอก อยู่ถัดจากแถบดาวเคราะห์น้อยออกไป ได้แก่ ดาวพฤหัสบดี ดาวเสาร์ ดาวยูเรนัส ดาวเนปจูน มีขนาดใหญ่ มีองค์ประกอบหลักเป็นไฮโดรเจนกับฮีเลียม จึงเรียกว่า ดาวเคราะห์แก๊ส
-                        <br /><br />
+                        <br />
                         4. เขตดาวหาง อยู่ตั้งแต่วงโคจรของดาวเนปจูนไกลออกไป เช่น ดาวเคราะห์แคระ ดาวพลูโต ดาวอีริส ดาวหาง สะเก็ดดาว
                     </p>
+
+                    <img src={'/3.png'} className="max-w-[800px] w-full h-auto object-cover aspect-video mt-5 " />
+                    <span className=" max-w-[800px] w-full h-auto flex items-center justify-center text-[17px] text-black/55 font-medium  ">
+                        ภาพ : trueplookpanya.com
+                    </span>
+                    <p className="text-lg text-black/75 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ระบบสุริยะเป็นระบบที่ประกอบด้วยดวงอาทิตย์เป็นศูนย์กลาง และมีดาวเคราะห์ 8 ดวง เรียงลำดับจากที่อยู่ใกล้ดวงอาทิตย์ไปยังดาวที่อยู่ไกลจากดวงอาทิตย์มากที่สุด คือ ดาวพุธ ดาวศุกร์ โลก ดาวอังคาร ดาวพฤหัสบดี ดาวเสาร์ ดาวยูเรนัส และดาวเนปจูน
+                    </p>
+                    <p className="text-lg text-black/75 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        ดาวฤกษ์ คือ ดาวที่มีความร้อนและแสงสว่างในตัวเอง โดยกําเนิดจากการระเบิดอย่างรุนแรงของ
+                        ก๊าซ ไฮโดรเจนกลายเป็นก๊าซฮีเลียม ทําให้มีอุณหภูมิสูงมาก ในระบบสุริยะมีดาวฤกษ์เพียงดวงเดียว คือ 
+                        ดวงอาทิตย์
+                   </p>
+                   <img src={'/4.png'} className="max-w-[350px] w-full h-auto object-cover mt-5" />
+                    <span className=" max-w-[800px] w-full h-auto flex items-center justify-center text-[17px] text-black/55 font-medium  ">
+                        ภาพ : trueplookpanya.com
+                    </span>
+                    <p className="text-lg text-black/75 text-start ">
+                    ดวงอาทิตย์ <br />&nbsp;&nbsp;&nbsp;
+                    •	เป็นดาวฤกษ์ศูนย์กลางของระบบสุริยะ ดวงอาทิตย์เป็น     ดาวฤกษ์ขนาดเล็ก เมื่อเทียบกับดาวฤกษ์อื่น ๆ<br />&nbsp;&nbsp;&nbsp;
+                    •	ดวงอาทิตย์เป็นดาวฤกษ์สีเหลือง<br />&nbsp;&nbsp;&nbsp;
+                    •	อยู่ห่างจากโลกประมาณ 150 ล้านกิโลเมตร มีขนาดใหญ่
+                    กว่าโลก 109 เท่า<br />&nbsp;&nbsp;&nbsp;
+                    •	หมุนรอบตัวเองครบ 1 รอบใช้เวลา 27 วัน<br />&nbsp;&nbsp;&nbsp;
+                    •	ดวงอาทิตย์ประกอบด้วยแก๊สไฮโดรเจนเป็นส่วนใหญ่ 
+                    มีเส้นผ่านศูนย์กลาง 1.39 ล้านกิโลเมตร<br />&nbsp;&nbsp;&nbsp;
+                    •	แสงสว่างจากดวงอาทิตย์ใช้เวลาเดินทางผ่านอวกาศมายังโลกใช้เวลาประมาณ 8.30 นาที
+                   </p>
+
+                   <p className="text-lg text-black/75 mt-15 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        ดาวเคราะห์ เป็นดาวที่ไม่มีแสงสว่างในตัวเองเราสามารถมองเห็นดาวเคราะห์ได้เนื่องจากดาวเคราะห์จะสะท้อนแสงจากดวงอาทิตย์เข้าสู่ตาของเรา จึงทําให้เรามองเห็นดาวเคราะห์ได้นั่นเอง ในปัจจุบันดาวเคราะห์ที่
+                        เป็นบริวารดวงอาทิตย์มีอยู่ทั้งหมด 8 ดวง
+
+                   </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                     <div className="w-full h-auto px-2 py-3 max-w-[900px] flex gap-1 border border-black/8 rounded flex-wrap items-center justify-start mt-10 ">
                         <span className="text-lg text-black/70 font-semibold shrink-0 ">
