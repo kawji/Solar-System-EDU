@@ -9,7 +9,7 @@ export default function Mainnav() {
     const { theme, toggleTheme } = useTheme();
 
     return(
-        <nav className="sticky w-full h-auto pt-5 pb-2  flex justify-center items-center  bg-white px-3 border-b border-b-black/7 shadow-2xs ">
+        <nav className="sticky top-0 z-99 w-full h-auto pt-5 pb-2  flex justify-center items-center  bg-white px-3 border-b border-b-black/7 shadow-2xs ">
             <div className="flex items-center justify-between w-full h-full flex-1 max-w-[1200px]">
                 <div className=" p-0 m-0  ">
                     <Logo size="lg" />     
