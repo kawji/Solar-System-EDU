@@ -10,12 +10,12 @@ export default function Topnav() {
 
                 <span className="flex items-center gap-2 hover:text-blue-400 transition-colors cursor-pointer shrink-0">
                     <PhoneCall width={14} />
-                    <p className=" font-extralight  ">061 616 1610</p>
+                    <p className=" font-extralight  ">061 616 6161</p>
                 </span>
 
                 <span className="flex items-center gap-2 hover:text-blue-400 transition-colors cursor-pointer shrink-0">
                     <Mail width={14} />
-                    <p className=" font-extralight t">stdTPU6/1@tpu.ac.th</p>
+                    <p className=" font-extralight t">std11038@tpu.ac.th</p>
                 </span>
                 <span className="flex items-center gap-2 hover:text-blue-400 transition-colors cursor-pointer shrink-0">
                     <p className=" font-extralight  ">อัปเดตเมื่อ 04/11/2025</p>

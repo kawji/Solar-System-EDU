@@ -105,7 +105,7 @@ export default function Sectionsnav() {
 
                 <div className="w-[85%] h-[1px] bg-black/18 my-5 mx-auto" />
 
-                <a href="https://mail.google.com" className="w-full px-8 py-4  hover:bg-black/5  text-black/95">
+                <a href="https://github.com/kawji" className="w-full px-8 py-4  hover:bg-black/5  text-black/95">
                     แจ้งปัญหาต่างๆ
                 </a>
                 <div className="w-full mt-4 px-8 py-4 text-black/95">
@@ -118,7 +118,7 @@ export default function Sectionsnav() {
                         <SiGmail size={21} />
                     </a>
 
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-800 transition-all p-3 border border-black/10 shadow-2xs hover:bg-black/3 duration-200 hover:scale-108 ">
+                    <a href="https://github.com/kawji" target="_blank" rel="noopener noreferrer" className="hover:text-gray-800 transition-all p-3 border border-black/10 shadow-2xs hover:bg-black/3 duration-200 hover:scale-108 ">
                         <FaGithub size={21} />
                     </a>
 
