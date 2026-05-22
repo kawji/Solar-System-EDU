@@ -12,7 +12,7 @@ export default function Sectionsnav() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="flex items-center justify-end lg:text-[16px] gap-4 w-full h-auto ">
+        <nav className="flex items-center justify-end lg:text-[15px] gap-4 w-full h-full max-h-screen ">
 
             <TextAlignEnd
                 width={50}
@@ -23,7 +23,7 @@ export default function Sectionsnav() {
 
             <div
                 className={clsx(
-                    "fixed right-0 top-0 w-full sm:max-w-[500px] h-screen bg-white shadow-lg z-[200] transition-transform duration-300 flex flex-col",
+                    "fixed right-0 top-0 w-full sm:max-w-[500px] h-screen bg-white shadow-lg z-200 transition-transform duration-300 flex flex-col",
                     isOpen ? "translate-x-0" : "translate-x-full"
                 )}
             >
@@ -36,15 +36,15 @@ export default function Sectionsnav() {
                         <X />
                     </span>
 
-                    <span className="text-black/95 font-black text-lg flex items-center gap-2">
-                        <Earth /> ภาษาไทย TH
+                    <span className="text-black/95 font-black  flex items-center gap-2">
+                        <Earth /> ภาษาไทย
                     </span>
                 </div>
 
                 
                 <div className="flex flex-col w-full">
 
-                    <div className="w-full px-8 py-4 text-black/95 font-black text-xl">
+                    <div className="w-full px-8 py-4 text-black/95 font-black">
                         หัวข้อเรื่อง
                     </div>
 
@@ -103,7 +103,7 @@ export default function Sectionsnav() {
                     </div>
                 </div>
 
-                <div className="w-[85%] h-[1px] bg-black/18 my-5 mx-auto" />
+                <div className="w-[85%] h-px bg-black/18 my-5 mx-auto" />
 
                 <a href="https://github.com/kawji" className="w-full px-8 py-4  hover:bg-black/5  text-black/95">
                     แจ้งปัญหาต่างๆ
@@ -142,6 +142,6 @@ export default function Sectionsnav() {
             
             </div>
 
-        </div>
+        </nav>
     );
 }
