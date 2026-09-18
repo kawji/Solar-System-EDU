@@ -2,17 +2,31 @@
 import clsx from "clsx"
 import { TextAlignEnd, X, Earth } from 'lucide-react';
 import { usePathname } from "next/navigation"
-import { useState } from "react";
 import { scrollToSection } from "@/utils/scrollToSections";
 import { SiGmail ,SiDiscord } from "react-icons/si";
 import { FaGithub ,FaFacebookF ,FaInstagram   } from "react-icons/fa";
+import { useState ,useEffect ,useRef } from "react";
+
 
 export default function Sectionsnav() {
     const path = usePathname();
     const [isOpen, setIsOpen] = useState(false);
+    const refSidebar = useRef<HTMLDivElement>(null)
+
+    useEffect(()=> {
+        const handleCloseSidebar = (e:MouseEvent) => {
+            if(refSidebar.current && !refSidebar.current.contains(e.target as Node)) {
+                setIsOpen(false);
+            }
+        }
+
+        document.addEventListener('mousedown',handleCloseSidebar);
+        return () => document.removeEventListener('mousedown',handleCloseSidebar);
+
+    },[])
 
     return (
-        <nav className="flex items-center justify-end lg:text-[15px] gap-4 w-full h-full max-h-screen ">
+        <div ref={refSidebar} className="flex items-center justify-end lg:text-[15px] gap-4 w-full h-full max-h-screen ">
 
             <TextAlignEnd
                 width={50}
@@ -105,7 +119,7 @@ export default function Sectionsnav() {
 
                 <div className="w-[85%] h-px bg-black/18 my-5 mx-auto" />
 
-                <a href="https://github.com/kawji" className="w-full px-8 py-4  hover:bg-black/5  text-black/95">
+                <a href="https://www.instagram.com/mrxs_claud?igsh=YXU5NGh0dW1na3p3" className="w-full px-8 py-4  hover:bg-black/5  text-black/95">
                     แจ้งปัญหาต่างๆ
                 </a>
                 <div className="w-full mt-4 px-8 py-4 text-black/95">
@@ -126,11 +140,11 @@ export default function Sectionsnav() {
                         <SiDiscord size={21} />
                     </a>
 
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition-all p-3 border border-black/10 shadow-2xs hover:bg-black/3 duration-200 hover:scale-108 ">
+                    <a href="https://www.instagram.com/mrxs_claud?igsh=YXU5NGh0dW1na3p3" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition-all p-3 border border-black/10 shadow-2xs hover:bg-black/3 duration-200 hover:scale-108 ">
                         <FaInstagram size={21} />
                     </a>
 
-                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-all p-3 border border-black/10 shadow-2xs hover:bg-black/3 duration-200 hover:scale-108 ">
+                    <a href="https://www.facebook.com/kaw.su.thin.shin" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-all p-3 border border-black/10 shadow-2xs hover:bg-black/3 duration-200 hover:scale-108 ">
                         <FaFacebookF size={21} />
                     </a>
 
@@ -142,6 +156,6 @@ export default function Sectionsnav() {
             
             </div>
 
-        </nav>
+        </div>
     );
 }
