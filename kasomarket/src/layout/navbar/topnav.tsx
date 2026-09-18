@@ -10,7 +10,7 @@ export default function Topnav() {
 
                 <span className="flex items-center gap-2 hover:text-blue-400 transition-colors cursor-pointer shrink-0">
                     <PhoneCall width={14} />
-                    <p className=" font-extralight  ">098 820 4905</p>
+                    <p className=" font-extralight  ">082 680 4905</p>
                 </span>
 
                 <span className="flex items-center gap-2 hover:text-blue-400 transition-colors cursor-pointer shrink-0">
